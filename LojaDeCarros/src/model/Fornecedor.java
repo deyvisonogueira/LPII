@@ -1,40 +1,38 @@
 package model;
 
 public class Fornecedor {
-	private String nome;
+	private String empresa;
 	private String CNPJ;
-	private String dataNascimento;
 	private String endereco;
 
-	public Fornecedor (String nome, String CNPJ, String dataNascimento, String endereco) {
-		this.nome = nome;
+	public Fornecedor (String nome, String CNPJ, String endereco) {
+		this.empresa = empresa;
 		this.CNPJ = CNPJ;
-		this.dataNascimento = dataNascimento;
 		this.endereco = endereco;
 	}
 	
 	public String getNome() {
-		return nome;
+		return empresa;
 	}
+
 	public void setNome(String nome) {
-		this.nome = nome;
+		this.empresa = empresa;
 	}
+
 	public String getCNPJ() {
 		return CNPJ;
 	}
+
 	public void setCPF(String CNPJ) {
 		CNPJ = CNPJ;
 	}
-	public String getDataNascimento() {
-		return dataNascimento;
-	}
-	public void setDataNascimento(String dataNascimento) {
-		this.dataNascimento = dataNascimento;
-	}
+	
 	public String getEndereco() {
 		return endereco;
 	}
+
 	public void setEndereco(String endereco) {
 		this.endereco = endereco;
 	}
+
 }

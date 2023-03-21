@@ -9,7 +9,6 @@ public class Cliente {
 	public Cliente (String nome, String CPF, String dataNascimento, String endereco) {
 		this.nome = nome;
 		this.CPF = CPF;
-		this.dataNascimento = dataNascimento;
 		this.endereco = endereco;
 	}
 	
@@ -37,6 +36,8 @@ public class Cliente {
 	public void setEndereco(String endereco) {
 		this.endereco = endereco;
 	}
+
+
 }
 
 
