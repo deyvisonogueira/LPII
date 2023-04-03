@@ -2,7 +2,6 @@ package view;
 
 import java.util.Scanner;
 import model.*;
-import java.lang.NullPointerException;
 
 public class Teste {
   public static void main(String[] args) {
