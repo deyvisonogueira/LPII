@@ -10,7 +10,6 @@ public class Teste {
     System.out.print("Digite a quantidade de internações: ");
     int n = scanner.nextInt(); 
 
-    
     Internacao[] internacoes = new Internacao[n];
 
     
@@ -18,18 +17,17 @@ public class Teste {
       scanner.nextLine();
       System.out.println("*** Internação " + (i+1) + " ***");
 
-      System.out.print("Data: ");
-      String data = scanner.nextLine();
-
       System.out.print("Motivo: ");
       String motivo = scanner.nextLine();
 
       System.out.println("Paciente:");
       System.out.print("Nome: ");
       String nomePaciente = scanner.nextLine();
+      
       System.out.print("Idade: ");
       int idadePaciente = scanner.nextInt();
       scanner.nextLine();
+      
       System.out.print("CPF: ");
       String cpfPaciente = scanner.nextLine();
       Paciente paciente = new Paciente(nomePaciente, idadePaciente, cpfPaciente);
